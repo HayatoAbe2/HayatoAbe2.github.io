@@ -1,16 +1,16 @@
 const games=[
-{id:"madan",title:"魔弾ダンダンジョン",category:"就職作品 / 現在制作中",members:"制作人数：1人",period:"",image:"images/madan.svg",gif:"",description:"ローグライク要素を持つアクションシューティング",role:"個人制作",youtube:"",pdf:""},
-{id:"mogura",title:"モグラ相撲",category:"2年生 / チーム制作",members:"制作人数：4人",period:"制作期間：10日",image:"images/mogura.svg",gif:"",description:"敵AIと落とし合う、ターン性ひっぱりアクション",role:"",youtube:"https://youtu.be/zrvy-mwzmvk",pdf:""},
-{id:"karasu",title:"急降下カラス飛行",category:"2年生 / チーム制作",members:"制作人数：3人",period:"制作期間：1ヶ月",image:"images/karasu.svg",gif:"",description:"「急降下」で攻撃する自動移動2Dアクション",role:"",youtube:"https://youtu.be/xlVGWxQMN6c",pdf:""},
-{id:"bunbun",title:"ブンブンている",category:"2年生 / チーム制作",members:"制作人数：4人",period:"制作期間：1ヶ月",image:"images/bunbun.svg",gif:"",description:"尻尾で攻撃する見下ろし視点ボス戦アクション",role:"",youtube:"https://youtu.be/id5O8JI2rwc",pdf:""},
-{id:"soutai",title:"相対傘",category:"2年生 / チーム制作",members:"制作人数：3人",period:"制作期間：1ヶ月",image:"images/soutai.svg",gif:"",description:"歌舞伎風のボス戦アクション",role:"",youtube:"https://youtu.be/oC-jBzdE3Kk",pdf:""},
-{id:"saiguy",title:"災Guy",category:"3年生 / チーム制作",members:"制作人数：3人",period:"制作期間：4ヶ月",image:"images/saiguy.svg",gif:"",description:"ブロック破壊が爽快な落下アクション",role:"",youtube:"https://youtu.be/YpGYRxa5FFo",pdf:""},
-{id:"wataru",title:"わたる",category:"3年生 / チーム制作",members:"制作人数：3人",period:"制作期間：10日",image:"images/wataru.svg",gif:"",description:"風を操り綿毛をゴールさせる2Dアクション",role:"",youtube:"",pdf:""},
-{id:"chameleon",title:"カメレオンブロック",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/chameleon.svg",gif:"",description:"",role:"",youtube:"https://youtu.be/hnraIZnrIc4",pdf:""},
-{id:"utsuro",title:"うつろなカタチ",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/utsuro.svg",gif:"",description:"",role:"",youtube:"https://youtu.be/Oe-dwgPQEFk",pdf:""},
-{id:"smogrin",title:"スモグリン",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/smogrin.svg",gif:"",description:"",role:"",youtube:"https://youtu.be/EC734TCm67M",pdf:""},
-{id:"ishizuna",title:"石絆",category:"1年生 / 個人制作",members:"個人制作",period:"",image:"images/ishizuna.svg",gif:"",description:"",role:"",youtube:"https://youtu.be/qn9yS41fRxM",pdf:""},
-{id:"fruitsshooter",title:"FruitsShooter",category:"1年生 / 個人制作",members:"個人制作",period:"",image:"images/fruitsshooter.svg",gif:"",description:"",role:"",youtube:"https://youtu.be/CJxDBQTC9u8",pdf:""}
+{id:"madan",title:"魔弾ダンダンジョン",category:"就職作品 / 現在制作中",members:"制作人数：1人",period:"",image:"images/魔弾ダンダンジョン.png",gif:"",description:"ローグライク要素を持つアクションシューティング",role:"個人制作",youtube:"",pdf:""},
+{id:"mogura",title:"モグラ相撲",category:"2年生 / チーム制作",members:"制作人数：4人",period:"制作期間：10日",image:"images/モグラ相撲.png",gif:"",description:"敵AIと落とし合う、ターン性ひっぱりアクション",role:"",youtube:"https://youtu.be/zrvy-mwzmvk",pdf:""},
+{id:"karasu",title:"急降下カラス飛行",category:"2年生 / チーム制作",members:"制作人数：3人",period:"制作期間：1ヶ月",image:"images/急降下カラス飛行.png",gif:"",description:"「急降下」で攻撃する自動移動2Dアクション",role:"",youtube:"https://youtu.be/xlVGWxQMN6c",pdf:""},
+{id:"bunbun",title:"ブンブンている",category:"2年生 / チーム制作",members:"制作人数：4人",period:"制作期間：1ヶ月",image:"images/ブンブンている.png",gif:"",description:"尻尾で攻撃する見下ろし視点ボス戦アクション",role:"",youtube:"https://youtu.be/id5O8JI2rwc",pdf:""},
+{id:"soutai",title:"相対傘",category:"2年生 / チーム制作",members:"制作人数：3人",period:"制作期間：1ヶ月",image:"images/相対傘.png",gif:"",description:"歌舞伎風のボス戦アクション",role:"",youtube:"https://youtu.be/oC-jBzdE3Kk",pdf:""},
+{id:"saiguy",title:"災Guy",category:"3年生 / チーム制作",members:"制作人数：3人",period:"制作期間：4ヶ月",image:"images/災Guy.png",gif:"",description:"ブロック破壊が爽快な落下アクション",role:"",youtube:"https://youtu.be/YpGYRxa5FFo",pdf:""},
+{id:"wataru",title:"わたる",category:"3年生 / チーム制作",members:"制作人数：3人",period:"制作期間：10日",image:"images/わたる.png",gif:"",description:"風を操り綿毛をゴールさせる2Dアクション",role:"",youtube:"",pdf:""},
+{id:"chameleon",title:"カメレオンブロック",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/カメレオンブロック.png",gif:"",description:"",role:"",youtube:"https://youtu.be/hnraIZnrIc4",pdf:""},
+{id:"utsuro",title:"うつろなカタチ",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/うつろなカタチ.png",gif:"",description:"",role:"",youtube:"https://youtu.be/Oe-dwgPQEFk",pdf:""},
+{id:"smogrin",title:"スモグリン",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/スモグリン.png",gif:"",description:"",role:"",youtube:"https://youtu.be/EC734TCm67M",pdf:""},
+{id:"ishizuna",title:"石絆",category:"1年生 / 個人制作",members:"個人制作",period:"",image:"images/石絆.png",gif:"",description:"",role:"",youtube:"https://youtu.be/qn9yS41fRxM",pdf:""},
+{id:"fruitsshooter",title:"FruitsShooter",category:"1年生 / 個人制作",members:"個人制作",period:"",image:"images/fruitsshooter.png",gif:"",description:"",role:"",youtube:"https://youtu.be/CJxDBQTC9u8",pdf:""}
 ];
 const $=id=>document.getElementById(id);
 function createCard(g,featured=false){const c=document.createElement("article");c.className=featured?"featured-card":"game-card";c.innerHTML=`<img class="game-thumb" src="${g.image}" alt="${g.title}"><div class="game-card-body"><p class="game-category">${g.category}</p><h3>${g.title}</h3></div>`;c.onclick=()=>openModal(g);return c}

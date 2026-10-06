@@ -6,11 +6,11 @@ const games=[
 {id:"soutai",title:"相対傘",category:"2年生 / チーム制作",members:"制作人数：3人",period:"制作期間：1ヶ月",image:"images/相対傘.png",gif:"",description:"歌舞伎風のボス戦アクション",role:"",youtube:"https://youtu.be/oC-jBzdE3Kk",pdf:""},
 {id:"saiguy",title:"災Guy",category:"3年生 / チーム制作",members:"制作人数：3人",period:"制作期間：4ヶ月",image:"images/災Guy.png",gif:"",description:"ブロック破壊が爽快な落下アクション",role:"",youtube:"https://youtu.be/YpGYRxa5FFo",pdf:""},
 {id:"wataru",title:"わたる",category:"3年生 / チーム制作",members:"制作人数：3人",period:"制作期間：10日",image:"images/わたる.png",gif:"",description:"風を操り綿毛をゴールさせる2Dアクション",role:"",youtube:"",pdf:""},
-{id:"smogrin",title:"スモグリン",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/スモグリン.png",gif:"",description:"",role:"",youtube:"https://youtu.be/EC734TCm67M",pdf:""},
 {id:"chameleon",title:"カメレオンブロック",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/カメレオンブロック.png",gif:"",description:"",role:"",youtube:"https://youtu.be/hnraIZnrIc4",pdf:""},
 {id:"utsuro",title:"うつろなカタチ",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/うつろなカタチ.png",gif:"",description:"",role:"",youtube:"https://youtu.be/Oe-dwgPQEFk",pdf:""},
-{id:"fruitsshooter",title:"FruitsShooter",category:"1年生 / 個人制作",members:"個人制作",period:"",image:"images/FruitsShooter.png",gif:"",description:"",role:"",youtube:"https://youtu.be/CJxDBQTC9u8",pdf:""}
+{id:"smogrin",title:"スモグリン",category:"1年生 / チーム制作",members:"チーム制作",period:"",image:"images/スモグリン.png",gif:"",description:"",role:"",youtube:"https://youtu.be/EC734TCm67M",pdf:""},
 {id:"ishizuna",title:"石絆",category:"1年生 / 個人制作",members:"個人制作",period:"",image:"images/石絆.png",gif:"",description:"",role:"",youtube:"https://youtu.be/qn9yS41fRxM",pdf:""},
+{id:"fruitsshooter",title:"FruitsShooter",category:"1年生 / 個人制作",members:"個人制作",period:"",image:"images/FruitsShooter.png",gif:"",description:"",role:"",youtube:"https://youtu.be/CJxDBQTC9u8",pdf:""}
 ];
 const $=id=>document.getElementById(id);
 function createCard(g,featured=false){const c=document.createElement("article");c.className=featured?"featured-card":"game-card";c.innerHTML=`<img class="game-thumb" src="${g.image}" alt="${g.title}"><div class="game-card-body"><p class="game-category">${g.category}</p><h3>${g.title}</h3></div>`;c.onclick=()=>openModal(g);return c}
